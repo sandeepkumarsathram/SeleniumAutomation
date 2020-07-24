@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Whale watching link is present on the page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-05-16T19:10:34 IST" name="Default suite" finished-at="2020-05-16T19:13:55 IST" duration-ms="200895">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T19:10:34 IST" name="Default test" finished-at="2020-05-16T19:13:55 IST" duration-ms="200895">
+      <class name="com.main.Testmain">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.main.Testmain@5223e5ee]" started-at="2020-05-16T19:10:34 IST" name="setup" finished-at="2020-05-16T19:12:27 IST" duration-ms="112510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testexecute()[pri:0, instance:com.main.Testmain@5223e5ee]" started-at="2020-05-16T19:12:27 IST" name="testexecute" finished-at="2020-05-16T19:13:40 IST" duration-ms="73333" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Whale watching link is present on the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testexecute -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.main.Testmain@5223e5ee]" started-at="2020-05-16T19:13:40 IST" name="close" finished-at="2020-05-16T19:13:55 IST" duration-ms="15010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.main.Testmain -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
