@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-01T18:42:36 IST" name="Suite" finished-at="2020-07-01T18:43:12 IST" duration-ms="36056">
+    <groups>
+    </groups>
+    <test started-at="2020-07-01T18:42:36 IST" name="Test1" finished-at="2020-07-01T18:42:45 IST" duration-ms="9103">
+      <class name="Assignment.textCheck">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:Assignment.textCheck@5b12b668]" started-at="2020-07-01T18:42:36 IST" name="initialisation" finished-at="2020-07-01T18:42:45 IST" duration-ms="8799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method signature="textcheck()[pri:0, instance:Assignment.textCheck@5b12b668]" started-at="2020-07-01T18:42:45 IST" name="textcheck" finished-at="2020-07-01T18:42:45 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textcheck -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:Assignment.textCheck@5b12b668]" started-at="2020-07-01T18:42:45 IST" name="stop" finished-at="2020-07-01T18:42:45 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Assignment.textCheck -->
+    </test> <!-- Test1 -->
+    <test started-at="2020-07-01T18:42:46 IST" name="Test2" finished-at="2020-07-01T18:42:56 IST" duration-ms="10480">
+      <class name="Assignment.navigationBar">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:Assignment.navigationBar@74e52ef6]" started-at="2020-07-01T18:42:46 IST" name="initialisation" finished-at="2020-07-01T18:42:52 IST" duration-ms="5936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method signature="navigationBarCheck()[pri:0, instance:Assignment.navigationBar@74e52ef6]" started-at="2020-07-01T18:42:52 IST" name="navigationBarCheck" finished-at="2020-07-01T18:42:52 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarCheck -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:Assignment.navigationBar@74e52ef6]" started-at="2020-07-01T18:42:52 IST" name="stop" finished-at="2020-07-01T18:42:56 IST" duration-ms="4430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Assignment.navigationBar -->
+    </test> <!-- Test2 -->
+    <test started-at="2020-07-01T18:42:57 IST" name="Test3" finished-at="2020-07-01T18:42:57 IST" duration-ms="0">
+    </test> <!-- Test3 -->
+    <test started-at="2020-07-01T18:42:57 IST" name="Test4" finished-at="2020-07-01T18:43:12 IST" duration-ms="15661">
+      <class name="Assignment.HomePage">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:Assignment.HomePage@6cfcd46d]" started-at="2020-07-01T18:42:57 IST" name="initialisation" finished-at="2020-07-01T18:43:05 IST" duration-ms="8613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method signature="Homepage(java.lang.String, java.lang.String)[pri:0, instance:Assignment.HomePage@6cfcd46d]" started-at="2020-07-01T18:43:05 IST" name="Homepage" data-provider="getData" finished-at="2020-07-01T18:43:08 IST" duration-ms="2894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MyMail@Com.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:Assignment.HomePage@6cfcd46d]" started-at="2020-07-01T18:43:08 IST" name="stop" finished-at="2020-07-01T18:43:12 IST" duration-ms="4146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Assignment.HomePage -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
